@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;200;300;400;500;600;700&display=swap');
+
+*{margin: 0; padding: 0;}
+
+
+
+#nav-topo{
+    width: 100%;
+    height: 35px;
+    background-color: #2B1821;
+    position: fixed;
+    top: 0px;
+    text-align: center;  
+} 
+
+body{
+    background-color #f5f5f5;
+}
+
+#banner{
+    width:100%;
+    height:500px;
+    margin-top: 15px;
+    box-shadow: 0px 8px 10px #000;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;}
+a{
+    color: #FFFFFF;
+    font-family: 'JetBrains Mono', monospace;
+    text-decoration: none;
+    font-size: 1.5rem;
+    margin-top: 30px;
+    font-weight: regular ;
+
+
+}
+
+.menu:link, .menu:visited{
+    color: #FFFFFF;
+    margin right: 4em;}
+
+.a-menu{
+    margin-right: 50px;
+    font-weight: ;
+}
+
+.a-menu:hover,.a-menu:active{
+    color: ghostwhite;
+}
+
+.a-menu:link,.a-menu:visited{
+    color: #FFFFFF
+}
+
+h1{
+    font-size: 4rem ;
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: lighter;
+    color: #000000;
+    text-align: center;
+    margin: 35px;
+}
+
+#texto1{
+    font-size: 2.2rem ;
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: regular ;
+    color: #000000;
+    text-align: justify;
+    text-justify: auto;
+    padding: 5px;
+    border: 10px #E6E6FA;
+    margin: 25px;
+
+}
+
+#container{
+    display: flex;
+    margin: 20px;
+    flex-wrap: wrap;
+}
+.card{
+    background-color: #FFF;
+    margin:20px;
+    width: 45%;
+    height: 600px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px #CCC;
+    transition: 0.5s;
+}
+
+.card:hover{
+    box-shadow: 0 8px 16px #CCC;
+}
+
+.card-conteudo{
+    padding: 10px;
+}
+
+.card-conteudo p{
+    font: 1.1rem 'JetBrains Mono', monospace;
+    line-height: 20px;
+    text-align: center;
+}
+
+.container{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+ }
+
+ .container p{
+    color: #000;
+ }
+
+#descricao {
+    text-align: center;
+}
+
+#img1{
+    width: 95%;
+    height: 400px;
+    margin: 20px;
+    border-radius: 8px;
+}
+
+#img2{
+    width: 95%;
+    height: 400px;
+    margin: 20px;
+    border-radius: 8px;
+}
+
+#img3{
+    width: 45%;
+    height: 450px;
+    margin-left: 200px;
+    border-radius: 8px;
+}
+#img4{
+    width: 70%;
+    height: 470px;
+    margin-left: 100px;
+    border-radius: 8px;
+}
+h2{
+    font-size: 1.3rem ;
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: lighter;
+    color: #000000;
+    text-align: center;
+}
+
+
+
+footer{
+    background-color: #1a0e13;
+    padding: 20px;
+}
+
+footer p{
+    font: 1.2rem 'JetBrains Mono', monospace;
+    text-align: center;
+    color: #FFF;
+}
+
+footer a{
+    color: #FFF;
+}
+
+footer a:hover{
+    color: #2c2034;
+}
+
+form{
+    width: 400px;
+    margin: 0 auto;
+    border-radius: 3px;
+    background-color: #868FA7;
+
+    
+}
+
+input, select, textarea{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 10px;
+    padding-left: 5px;
+    box-sizing: border-box;
+    border: 1px; solid ;
+    font: 1rem 'JetBrains Mono', monospace;;
+    color: black;
+}
+
+label, fieldset,input, select, textarea{
+    font: 1rem 'JetBrains Mono', monospace;
+}
+
+fieldset{
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+input[type="radio"]{ 
+    width: 15px;
+    height: 15px;
+    margin-left: 30px;
+
+}
+
+textarea{
+    height: 100px;
+}
+
+#botoes-form{
+    display: flex;
+}
+
+input[type="submit"], input[type="reset"]{
+    margin: 1px;
+    background-color: #8BC34A;
+    color: black;
+    border: 0px;
+    border-radius: 5px;
+}
+
+input[type="reset"]{
+    background-color: red;
+}
+
+input[type="submit"]{
+     background-color: green;
+}   
+#link{
+    font: 3rem "kaushan Script", cursive;
+    color: black;
+    text-align: center;
+    background-color: #868FA7;
+    margin: 50px;
+    padding: 10px;
+    border: 5px #000;
+    width:40%;
+    
+}
+
+.link a{
+    color: #000
+}
